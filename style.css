@@ -1,0 +1,159 @@
+body{
+    color:#333;
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    
+}
+
+header{
+    background-color: #ffd700;
+    padding:5px;
+    text-align: center;
+}
+
+
+.logoimg{
+    width: 100px;
+    height:auto;
+
+}
+
+header a{
+    text-decoration: none;
+    color:inherit;
+
+}
+header h1{
+    margin:5px;
+    font-size:50px;
+}
+nav{
+    background-color: #333;
+    padding:5px;
+    display:flex;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin:0 20px;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+}
+nav a:hover{
+    color:antiquewhite;
+    text-decoration: underline;
+}
+nav ul li{
+    display:inline;
+
+}
+
+
+section{
+    padding:24px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    display:flex;
+    
+}
+section h2{
+    color:#0000ff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+#gallery{
+    padding:5px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: beige;
+    max-width: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    display: flex;
+    
+}
+#gallery img{
+    width:100%;
+    height:50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#bio-photo{
+    width:100px;
+    height:50px;
+    border-radius:50px;
+    display:block;
+
+}
+
+
+
+.bio-container{
+    font-size: medium;
+    color: aqua;
+    font-weight: bolder;
+
+
+}
+
+h3{
+    color:brown;
+    font-size: medium;
+
+}
+
+
+
+form label{
+    display:flexbox;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color:#333;
+    font-size: medium;
+    box-shadow: #333 0px 1px 3px;
+
+}
+form input, form textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+form button{
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #0000ff;
+    color:bisque;
+
+}
+
+
+
+    
+
+
+
+    
+    
+
+
+
+
+
