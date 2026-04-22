@@ -73,14 +73,13 @@ section h2{
 }
 
 #gallery{
-    padding:30px;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 8px;
     background-color: gray;
     max-width: 100px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
-    display:flex;
+    display:grid;
 
 }
 #gallery img{
