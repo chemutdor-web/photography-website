@@ -55,11 +55,12 @@ nav ul li{
 
 section{
     padding:24px;
-    max-width: 900px;
+    max-width: none;
     margin: 20px auto;
     background-color: #f1f1f1;
     box-sizing: border-box;
     display:flex;
+
     
 }
 section h2{
@@ -97,7 +98,7 @@ section h2{
     width:100px;
     height:50px;
     border-radius:50px;
-    display:block;
+    display:grid;
 
 }
 
@@ -139,9 +140,10 @@ form label{
 }
 form input, form textarea{
     width: 100%;
-    padding: 5px;
+    padding: 1px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    border-radius: 10px;
 
 }
 form button{
@@ -158,6 +160,7 @@ form button:hover{
 }
 
 .
+
     
 
 
