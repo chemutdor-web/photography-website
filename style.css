@@ -117,13 +117,18 @@ h3{
     font-size: medium;
 
 }
+#contact{
+    background-color: palevioletred;
+    padding:18px;
+
+}
 .get h2{
     text-align: center;
 }
 form{
     max-width: 700px;
     margin: 24px auto;
-    background-color: burlywood;
+    background-color:palevioletred;
 
 }
 
